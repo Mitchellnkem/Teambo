@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+body{
+    background-color: whitesmoke;
+    /* background-color: #FEED61; */
+}
+
+/* universal section starts here */
+.container{
+    margin: 0 auto;
+    padding: 3%;
+    
+}
+
+
+.container1{
+    margin: 0 auto;
+    padding: 4%;
+    
+}
+/* universaln */
+
+
+
+
+/* header section starts here */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .icon-blog{
+    display: flex;
+    align-items: center;
+
+}
+
+header button{
+    padding: 0.5rem 1rem;
+    background-color: #282828;
+    border-radius: 4px;
+    color: #fff;
+}
+
+header button:hover{
+    background-color: #2869E7;
+    color: white;
+}
+
+header a{
+    color: grey;
+   
+}
+
+header nav a:hover{
+    color:  #2869E7;
+}
+
+
+header nav  .home{
+    color: #2869E7;
+}
+
+header h2{
+    color: #111812;
+	margin-left: -85px;
+
+}
+
+header .nav1{
+	margin-left: 75px;
+}
+
+header .icon-blog i{
+	margin-right: 95px;
+}
+
+/* header section ends here */
+
+
+
+/* about section starts here */
+
+#about{
+    margin-top: 60px;
+}
+
+#about .about1{
+    display: flex;
+  
+    justify-content: space-around;
+	margin-right: 17%
+}
+
+
+#about .top-info{
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  background-color: #DBF2E8;
+  width: 290px;
+  height: 40px;
+  margin-left: 150px;
+  border-radius: 20px;
+  padding: 5px;
+ 
+  
+  
+}
+
+#about .top-info p{
+    text-align: center;
+    color: #23CB85;
+    font-size: 0.9rem;
+    margin-left: 25px;
+}
+
+#about .top-info i{
+    margin-right: -10px;
+}
+
+#about h2{
+    font-size: 2.6rem;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+
+#about .info-down{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#about .info-down p{
+    line-height: 30px;
+    color: grey;
+    font-size: 1.2rem;
+
+}
+
+#about button{
+    padding: 0.8rem 1.9rem;
+    border-radius: 20px;
+    background-color: #0100FC;
+    color: white;
+    margin-top: 40px;
+}
+
+#about button:hover{
+    background-color: white;
+    color: #0100FC;
+}
+
+.about2 img{
+   display: block;
+   margin-right: -270px;
+   height: 400px;
+   width: 550px;
+   border-radius: .5rem;
+}
+
+
+
+/* about section ends here */
+
+
+ /* build section starts here */
+
+
+#achievement .achievement-down h3{
+	text-align: center;
+	color: #00030a;
+	font-weight: bold;
+	font-size: 25px;
+ }
+ 
+ #achievement .achievement-down h2{
+	 text-align: center;
+	 color: #252541;
+	 margin-top: 20px;
+	 font-weight: lighter;
+	 font-size: 12px;
+  }
+ 
+ 
+  #achievement .achievement-down{
+	 padding-bottom: 70px;
+  }
+ 
+
+ /* build section ends here */
+
+
+
+
+ 
+  /* communication starts here  */
+
+.comm{
+	display: flex;
+	
+}
+
+
+
+ .comm .row .content{
+	flex: 1 1 45rem;
+}
+
+.comm .row .content h3{
+	color: #00030a;
+	font-size: 2rem;
+	line-height: 1.8;
+}
+
+.comm .row .content p{
+	color: #252541;
+	font-size: 1.2rem;
+	line-height: 1.8;
+	margin-top: 10px;
+}
+
+.comm .row .image{
+	flex: 1 1 45rem;
+}
+
+.comm .row .image img{
+	width: 50%;
+	height: 50%;
+	/* object-fit: cover; */
+	border-radius: .5rem;
+}
+
+
+  /* communication stops header */
+
+
+
+
+
+
+
+
+
+
+
+
+  /* subscribe button starts here */
+
+.sub{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+
+  .subscribe {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .subscribe input[type="email"] {
+    padding: 10px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    margin-right: 10px;
+  }
+  .subscribe button {
+    padding: 10px 20px;
+    background-color: #00030a;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+
+
+  /* subscribe button ends here */
+
+
+  .task-img{
+	width: 100%;
+	display: flex;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	
+  }
+
+  .task-img img{
+	width: 95%;
+	align-items: center;
+	margin-left: 30px;
+  }
+
+
