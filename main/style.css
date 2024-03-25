@@ -210,15 +210,15 @@ header .icon-blog i{
  
   /* communication starts here  */
 
-.comm{
+/* .comm{
 	display: flex;
+	align-items: center;
 	
 }
 
-
-
  .comm .row .content{
-	flex: 1 1 45rem;
+	flex: flex-box;
+	align-items: center;
 }
 
 .comm .row .content h3{
@@ -236,19 +236,112 @@ header .icon-blog i{
 
 .comm .row .image{
 	flex: 1 1 45rem;
+	margin-right: -252px;
 }
 
 .comm .row .image img{
 	width: 50%;
 	height: 50%;
-	/* object-fit: cover; */
+	object-fit: cover;
 	border-radius: .5rem;
+	
+} */
+
+/* down section starts here */
+
+#down-sec{
+    margin-top: 70px;
+}
+#down-sec .down-info{
+    display: flex;
+   
+    justify-content: space-around;
+    padding-bottom: 30px;
+    
+}
+
+#down-sec .down-info1{
+    display: flex;
+    
+    justify-content: space-around;
+    padding-bottom: 30px;
+	padding-top: 50px;
+    
 }
 
 
+#down-sec .down-info2{
+    display: flex;
+  
+    justify-content: space-around;
+	padding-top: 50px;
+    
+}
+
+
+#down-sec .top-info p{
+    text-align: center;
+    
+}
+
+#down-sec .text1{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+
+#down-sec h3{
+   color: #6EA2F8;
+   
+    line-height: 50px;
+}
+
+#down-sec .info-down{
+    margin-top: 40px;
+}
+
+#down-sec .info-down .text{
+    line-height: 30px;
+    color: grey;
+    font-size: 1.2rem;
+
+}
+
+#down-sec .down-level{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+#down-sec .down-person{
+    display: flex;
+    align-items: center;
+
+    margin-top: 60px;
+    gap: 20px;
+}
+
+
+#down-sec button{
+    padding: 0.8rem 1.9rem;
+    border-radius: 20px;
+    color: #5E88F2;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+}
+
+/* #down-sec .btn{
+    background-color: blueviolet;
+} */
+
+
+
+
+/* down section ends here */
+
+
   /* communication stops header */
-
-
 
 
 
@@ -288,6 +381,9 @@ header .icon-blog i{
     cursor: pointer;
   }
 
+  .subscribe button:hover{
+	background-color: #0100FC;
+  }
 
   /* subscribe button ends here */
 
@@ -307,3 +403,47 @@ header .icon-blog i{
   }
 
 
+
+
+
+  /* footer section starts header */
+
+
+
+
+
+  
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 20px;
+  }
+  .footer-item {
+    flex: 1;
+    margin-left: 50px;
+	margin-top: 20px;
+  }
+  /* Adjust styles as needed */
+  .footer-item h3 {
+    margin-top: 0;
+
+  }
+
+.footer {
+	align-items: center;
+	margin-top: 10px;
+}
+
+.footer .credit{
+	align-items: center;
+	text-align: center;
+	font-size: 1rem;
+	font-weight: lighter;
+	margin-top: 60px;
+	color:#8c8e8f;
+  }
+
+  /* footer section ends here */
